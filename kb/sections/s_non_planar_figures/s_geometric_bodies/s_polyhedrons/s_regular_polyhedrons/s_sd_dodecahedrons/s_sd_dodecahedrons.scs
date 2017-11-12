@@ -1,9 +1,28 @@
 s_sd_dodecahedrons
 => nrel_main_idtf:
-	[Раздел. Предметная область додекаэдров]
+	[Раздел. ПрО додекаэдров]
 	(* <- lang_ru;; *);
 => nrel_main_idtf:
-	[Section. Subject domain of dodecahedrons]
+	[Section. SD dodecahedrons]
 	(* <- lang_en;; *);
 
-<- atomic_section;;
+<= nrel_sc_text_translation:
+	...
+	(*
+	-> rrel_example:
+		"file://html/s_sd_dodecahedrons.html"
+		(* <- lang_ru;; *);;
+	*);
+
+<- atomic_section;
+
+=> nrel_summary:
+	...
+	(*
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:[В данном разделе рассматриваются додекаэдры.]
+			(* <- lang_ru;; *);;
+		*);;
+	*);;
