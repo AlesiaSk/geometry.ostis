@@ -1,11 +1,11 @@
 s_sd_tetrahedrons
 => nrel_main_idtf:
-	[Раздел. ПрО тетраэдров]
+	[Раздел. Предметная область тетраэдров]
 	(* <- lang_ru;; *);
 => nrel_main_idtf:
-	[Section. SD tetrahedrons]
+	[Section. Subject domain of tetrahedrons]
 	(* <- lang_en;; *);
-
+<- atomic_section;;
 <= nrel_sc_text_translation:
 	...
 	(*

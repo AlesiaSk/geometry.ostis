@@ -1,11 +1,11 @@
 s_sd_icosahedrons
 => nrel_main_idtf:
-	[Раздел. ПрО икосаэдров]
+	[Раздел. Предметная область икосаэдров]
 	(* <- lang_ru;; *);
 => nrel_main_idtf:
-	[Section. SD icosahedrons]
+	[Section. Subject domain of icosahedrons]
 	(* <- lang_en;; *);
-
+<- atomic_section;;
 <= nrel_sc_text_translation:
 	...
 	(*

@@ -1,11 +1,11 @@
 s_sd_cubes
 => nrel_main_idtf:
-	[Раздел. ПрО кубов]
+	[Раздел. Предметная область кубов]
 	(* <- lang_ru;; *);
 => nrel_main_idtf:
-	[Section. SD cubes]
+	[Section. Subject domain of cubes]
 	(* <- lang_en;; *);
-
+<-atomic_section;;
 <= nrel_sc_text_translation:
 	...
 	(*

@@ -1,11 +1,11 @@
 s_sd_octahedrons
 => nrel_main_idtf:
-	[Раздел. ПрО октаэдров]
+	[Раздел. Предметная область октаэдров]
 	(* <- lang_ru;; *);
 => nrel_main_idtf:
-	[Section. SD octahedrons]
+	[Section. Subject domain of octahedrons]
 	(* <- lang_en;; *);
-
+<- atomic_section;;
 <= nrel_sc_text_translation:
 	...
 	(*
