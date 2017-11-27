@@ -5,7 +5,7 @@ s_parallel_lines_in_space
 => nrel_main_idtf:
 	[Section. Parallel lines in space]
 	(* <- lang_en;; *);
-<- atomic_section;;
+<- atomic_section;
 <= nrel_sc_text_translation:
 	...
 	(*

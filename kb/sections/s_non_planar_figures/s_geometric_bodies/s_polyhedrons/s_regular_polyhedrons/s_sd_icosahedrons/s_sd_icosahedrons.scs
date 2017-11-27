@@ -5,7 +5,7 @@ s_sd_icosahedrons
 => nrel_main_idtf:
 	[Section. Subject domain of icosahedrons]
 	(* <- lang_en;; *);
-<- atomic_section;;
+<- atomic_section;
 <= nrel_sc_text_translation:
 	...
 	(*
